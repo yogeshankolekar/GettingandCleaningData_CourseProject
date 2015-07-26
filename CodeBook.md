@@ -16,3 +16,27 @@ The script `run_analysis.R`performs the 5 steps described in the course project'
 * A similar approach is taken with activity names through the `activities` variable.
 * `all_data` merges `x`, `y` and `subject` in a big dataset.
 * `averages` contains the relevant averages which will be later stored in a `tidy_data.txt` file. `ddply()` from the plyr package is used to apply `colMeans()` and ease the development.
+
+# Identifiers
+subject - The ID of the test subject
+activity - The type of activity performed when the corresponding measurements were taken
+
+# Activity Labels
+WALKING (value 1): subject was walking during the test
+WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
+WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
+SITTING (value 4): subject was sitting during the test
+STANDING (value 5): subject was standing during the test
+LAYING (value 6): subject was laying down during the test
+
+# Variables
+mean and std for 't' & 'f' BodyAcc for (x, y, z)
+mean and std for 't' & 'f' BodyAccJerk for (x, y, z)
+mean and std for 't' & 'f' BodyGyro for (x, y, z)
+mean and std for 't' & 'f' BodyGyroJerk for (x, y, z)
+mean and std for 't' & 'f' BodyAccMag
+mean and std for 't' & 'f' GravityAccMag
+mean and std for 't' & 'f' BodyAccJerkMag
+mean and std for 't' & 'f' BodyAccJerkMag
+
+
